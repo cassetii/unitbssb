@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Data AC</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="app.js"></script>
+</head>
+<body>
+    <div class="form-container">
+        <h1>Input Data Unit AC</h1>
+        <form id="ac-form">
+            <label for="letak">Letak AC:</label>
+            <select id="letak" required>
+                <option value="Kantor Kas">Kantor Kas</option>
+                <option value="Gedung ATM">Gedung ATM</option>
+            </select>
+            <label for="jalan">Jalan:</label>
+            <input type="text" id="jalan" required>
+            <label for="model">Model:</label>
+            <select id="model" required>
+                <option value="Midea">Midea</option>
+                <option value="Daikin">Daikin</option>
+                <option value="LG">LG</option>
+                <option value="Panasonic">Panasonic</option>
+                <option value="Samsung">Samsung</option>
+                <option value="TCL">TCL</option>
+                <option value="Changhong">Changhong</option>
+                <option value="Toshiba">Toshiba</option>
+            </select>
+            <label for="kapasitas">Kapasitas:</label>
+            <select id="kapasitas" required>
+                <option value="1/2pk">1/2pk</option>
+                <option value="1pk">1pk</option>
+                <option value="2pk">2pk</option>
+            </select>
+            <label for="freon">Type Freon:</label>
+            <select id="freon" required>
+                <option value="R32">R32</option>
+                <option value="R410">R410</option>
+                <option value="R22">R22</option>
+            </select>
+            <button type="submit">Kirim</button>
+        </form>
+    </div>
+</body>
+</html>
